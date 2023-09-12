@@ -2,8 +2,14 @@ import java.util.Arrays;
 
 public class PlusOne {
     public static void main(String[] args) {
-        // create int array including digits and name it as digits
-        int[] digits = new int[]{9};
+       int[] digits = new int[]{9,8,7,6,5,4,3,0,0};
+       System.out.println(Arrays.toString(plusOne(digits))); 
+
+    }
+
+    public static int[] plusOne(int[] digits){
+       // create int array including digits and name it as digits
+        
 
         int number = 0;
         int pow = 1;
@@ -23,9 +29,8 @@ public class PlusOne {
           pow /= 10;
         }
 
-        System.out.println(Arrays.toString(answer)); 
-
-
+        return answer;
+      
     }
   }
 
