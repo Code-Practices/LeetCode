@@ -1,7 +1,8 @@
 public class DuplicationContains{
 
     public static void main(String[] args) {
-        int[] nums = {1,1,1,3,3,4,3,2,4,2};
+        int[] nums = {1,2,3,1};
+        boolean result = true;
 
         loop:
         for(int i = 0; i<nums.length; i++ ){
@@ -16,8 +17,14 @@ public class DuplicationContains{
                 }
 
             }
-            System.out.println(count);
-            if(count > 1) break; 
+            
+            if(count > 1) {
+            System.out.println(result);
+            break; }
+            else{
+                System.out.println(!result);
+                break;
+            }
             
         }
         
