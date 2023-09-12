@@ -17,7 +17,8 @@ public class DuplicationContains{
                 }
 
             }
-            
+
+
             if(count > 1) {
             System.out.println(result);
             break; }
