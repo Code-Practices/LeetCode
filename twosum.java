@@ -16,16 +16,14 @@ public class twosum{
                 if(target == x + y){
                     k =i;
                     l = j;
+                    result[0]=i;
+                    result[1]=j;
                     break;
                 }
             }
 
         }
 
-
-        
-        
-        return int[] {i,j};
-        
+        return result;    
     } 
 }
