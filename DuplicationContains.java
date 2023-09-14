@@ -18,7 +18,6 @@ public class DuplicationContains{
 
             }
 
-
             if(count > 1) {
             System.out.println(result);
             break; }
@@ -28,7 +27,7 @@ public class DuplicationContains{
             }
             
         }
-        
+
     }
 }
 
