@@ -1,7 +1,7 @@
 public class ClimbingStairs {
     public static void main(String[] args) {
 
-        int n = 45; // The target number to reach
+        int n = 8; // The target number to reach
 
         if(n==1) System.out.println("1");
         
