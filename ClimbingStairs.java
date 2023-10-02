@@ -1,7 +1,7 @@
 public class ClimbingStairs {
     public static void main(String[] args) {
 
-        int n = 5; // The target number to reach
+        int n = 4; // The target number to reach
 
         int ways = countWays(n);
         System.out.println("Number of ways to get " + n + " using 1s and 2s: " + ways);
@@ -19,7 +19,5 @@ public class ClimbingStairs {
 
         return ways1 + ways2;
     }
-
-
     
 }
